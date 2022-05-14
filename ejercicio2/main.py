@@ -10,7 +10,7 @@ def convert_to_fasta():
 def buildBlast():
     record = SeqIO.read("HTT.fasta", format="fasta")
     result_handle = NCBIWWW.qblast("blastn", "nt", record.seq)
-    with open("my_blast.xml", "w") as out_handle:
+    with open("blast_result.xml", "w") as out_handle:
         out_handle.write(result_handle.read())
     result_handle.close()
 
