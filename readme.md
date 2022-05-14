@@ -8,6 +8,7 @@
 El caso que elegimos para analizar es la enfermedad de Huntington, la cual se manifiesta debido a una mutacion en el gen HTT.
 
 [HTT mRNA NCBI](https://www.ncbi.nlm.nih.gov/nuccore/NM_001388492.1)
+
 NCBI Reference Sequence: `NM_001388492.1`
 
 ## _Ejercicio 1_
