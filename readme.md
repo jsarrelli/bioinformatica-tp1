@@ -16,7 +16,7 @@ A partir del archivo GenBank descargado de la pagina NCBI (_sequence.gb_), trans
 
 
 ```sh
-py ejercicio1/main.py
+py ejercicio1/ex1.py
 ```
 
 ## _Ejercicio 2_
@@ -33,18 +33,18 @@ Con nuestro resultado podemos ver el parecido con distintos organismos tales com
 ``TODO chequear interpretacion``
 
 ```sh
-py ejercicio2/main.py
+py ejercicio2/ex1.py
 ```
 
 ## Ejercicio 3
 Descargamos las secuencias de los siguientes organismos
 | Organismo | Reference | Link |
 | ------ | ---- | -----|
-| Mandrillus leucophaeus | `XM_012002185` | https://www.ncbi.nlm.nih.gov/nuccore/XM_012002185 |
-| Sapajus apella | `XM_032254021` |https://www.ncbi.nlm.nih.gov/nuccore/XM_032254021 |
-| Lemur catta | `XM_045528220` | https://www.ncbi.nlm.nih.gov/nuccore/XM_045528220 | 
+| Gorilla gorilla gorilla | `XP_030865871.1` | https://www.ncbi.nlm.nih.gov/nuccore/XP_030865871.1 |
+| Pan troglodytes | `XP_016806693.2` |https://www.ncbi.nlm.nih.gov/nuccore/XP_016806693.2 |
+| Pan paniscus | `XP_003813027.3` | https://www.ncbi.nlm.nih.gov/nuccore/XP_003813027.3 | 
 
 Para ejecutar secuenciamiento multiple 
-[Click aqui](https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=clustalo-I20220507-234725-0072-42290853-p2m)
+[Click aqui](https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=clustalo-I20220515-022056-0986-82305246-p1m)
 
 ``TODO agregar interpretacion``
