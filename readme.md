@@ -22,15 +22,15 @@ py ejercicio1/ex1.py
 ## _Ejercicio 2_
 A partir del archivo GenBank descargado de la pagina NCBI, realiza un BLAST de la secuencia (_blast_result.xml_).
 Esto lo realizamos ejecutando el BLAST de manera remota desde la pagina de NCBI.
-Lo que logramos con esto es obtener una serie de secuencias similares a las de este gen, con esto se puede inferir relaciones funcionales y evolutivas entre distintas secuencias.
+Lo que logramos con esto es obtener una serie de secuencias similares a las de este gen, 
+con esto se puede inferir relaciones funcionales y evolutivas entre distintas secuencias.
 
 Con nuestro resultado podemos ver el parecido con distintos organismos tales como
- - Mandrillus leucophaeus (mono)
- - Sapajus apella (mono)
- - Lemur catta (lemur)
+ - Gorilla gorilla gorilla (mono)
+ - Pan troglodytes (mono)
+ - Pan paniscus (lemur)
  
-
-``TODO chequear interpretacion``
+Es interesante ver como estas secuencias son principalmente de "monos", aquí vemos como la evolución toma un rol importante.
 
 ```sh
 py ejercicio2/ex1.py
@@ -47,4 +47,11 @@ Descargamos las secuencias de los siguientes organismos
 Para ejecutar secuenciamiento multiple 
 [Click aqui](https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=clustalo-I20220515-022056-0986-82305246-p1m)
 
-``TODO agregar interpretacion``
+
+A partir de estos resultados, pudimos apreciar, no sólo que la secuencia de la proteína del Gorilla gorilla gorilla 
+es la más similar a la obtenida como resultado del Ejercicio 1, sino cuán similares son y también cuán similar a la del 
+chimpancé y la del gorila.
+
+
+
+
